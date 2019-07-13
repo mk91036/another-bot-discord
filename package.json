@@ -1,0 +1,49 @@
+{
+  "name": "another",
+  "version": "1.0.0",
+  "description": "Bot Discord for team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Bot",
+    "Discord",
+    "JS"
+  ],
+  "author": "Mizuhashi",
+  "license": "ISC",
+  "dependencies": {
+    "animequote": "^1.1.1",
+    "async-request": "^1.2.0",
+    "booru": "^2.0.2",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "ffmpeg-binaries": "^4.0.0",
+    "kitsu.js": "^2.0.0",
+    "mal-api": "^2.0.0",
+    "malapi": "0.0.3",
+    "moment": "^2.24.0",
+    "mz": "^2.7.0",
+    "nekos.life": "^2.0.4",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7",
+    "quick.hook": "^1.5.1",
+    "random-puppy": "^1.1.0",
+    "request": "^2.88.0",
+    "rss-parser": "^3.7.1",
+    "simple-youtube-api": "^5.2.0",
+    "snekfetch": "^4.0.4",
+    "superagent": "^5.1.0",
+    "winston": "^3.2.1",
+    "ytdl-core-discord": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
